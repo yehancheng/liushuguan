@@ -1,0 +1,108 @@
+/*appemnu*/
+#appmenu{
+	position:fixed;
+	_position:absolute;
+	left:20px;
+	bottom:20px;
+	z-index:999
+}
+#appmenu .menuicon{
+	display:block;
+	cursor:pointer;
+	position:relative;
+	padding:8px;
+	height:16px;
+	width:16px;
+	background:#000;
+	filter:alpha(opacity=75);
+	opacity:0.75;
+}
+.appmenu .menuicon{border-radius:32px;}
+.appmenu_hover .menuicon{border-radius:0 0 32px 32px}
+#appmenu .menuicon .allicon{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url(/media/images/appicon.gif) no-repeat
+}
+#appmenu .menuicon .hot{
+	position:absolute;
+	border-radius:7px;
+	width:7px;
+	height:7px;
+	overflow:hidden;
+	top:3px;
+	right:3px;
+	border:1px solid #FFF;
+	box-shadow:0 0 2px rgba(0,0,0,0.5);
+	background:#F00;
+}
+#appmenu .app_list{
+	position:absolute;
+	bottom:32px;
+	left:0;
+	border-radius:5px 5px 5px 0;
+	width:190px;
+	background:#000;
+	filter:alpha(opacity=75);
+	opacity:0.75;
+}
+#appmenu .app_list .fcn{color:#999}
+#appmenu .app_list .apptitle{
+	_padding-top:7px;
+	padding-right:7px;
+	height:32px;
+	_height:25px;
+	line-height:32px;
+	text-align:right;
+	display:block;
+	border-bottom:1px dotted #222;
+}
+#appmenu .app_list .apptitle a:link,#appmenu .app_list .apptitle a:visited,#appmenu .app_list .apptitle a:hover,#appmenu .app_list .apptitle a:active{
+	display:inline-block;
+	overflow:hidden;
+	margin-bottom:-4px;
+	width:16px;
+	height:16px;
+	background:url(/media/images/appicon.gif) no-repeat 0 -128px
+}
+#appmenu .app_list .apptitle a:hover{background-position:0 -144px}
+#appmenu .app_list ul{padding-top:5px;}
+.appmenu .app_list{display:none;}
+.appmenu_hover .app_list{display:block}
+#appmenu .app_list li a:link,#appmenu .app_list li a:visited,#appmenu .app_list li a:hover,#appmenu .app_list li a:active{
+	position:relative;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	display:block;
+	padding-left:10px;
+	_padding-top:7px;
+	height:32px;
+	_height:25px;
+	line-height:34px;
+	color:#FFF;
+}
+#appmenu .app_list li:last-child a:link,#appmenu .app_list li:last-child a:visited,#appmenu .app_list li:last-child a:hover,#appmenu .app_list li:last-child a:active{border-radius:0 0 5px}
+#appmenu .app_list li a:hover{background:#023466;text-decoration:none}
+#appmenu .app_list .appicon{
+	display:inline-block;
+	overflow:hidden;
+	width:24px;
+	height:16px;
+	background:url(/media/images/appicon.gif) no-repeat;
+}
+#appmenu .app_list .apptest{margin-bottom:-2px;background-position:0 -16px}
+#appmenu .app_list a:hover .apptest{background-position:0 -160px}
+#appmenu .app_list .appfm{margin-bottom:-2px;height:15px;background-position:0 -32px}
+#appmenu .app_list a:hover .appfm{background-position:0 -176px}
+#appmenu .app_list .appcourse{margin-bottom:-3px;background-position:0 -48px}
+#appmenu .app_list a:hover .appcourse{background-position:0 -192px}
+#appmenu .app_list .appgame{margin-bottom:-3px;background-position:0 -64px}
+#appmenu .app_list a:hover .appgame{background-position:0 -208px}
+#appmenu .app_list .apptopic{margin-bottom:-3px;background-position:0 -80px}
+#appmenu .app_list a:hover .apptopic{background-position:0 -224px}
+#appmenu .app_list .appsmile{margin-bottom:-3px;background-position:0 -96px}
+#appmenu .app_list a:hover .appsmile{background-position:0 -240px}
+#appmenu .app_list .apphole{margin-bottom:-4px;background-position:0 -112px}
+#appmenu .app_list a:hover .apphole{background-position:0 -256px}

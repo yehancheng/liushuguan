@@ -1,0 +1,5 @@
+http://liushuguan.jianfengstudio.com
+svn
+svn://223.4.33.102:10014
+HanCheng = 123456
+JieNi = 123456

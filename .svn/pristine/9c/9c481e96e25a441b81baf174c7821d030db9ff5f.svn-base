@@ -1,0 +1,9 @@
+input.ein,textarea.ein{
+	border: 1px solid red !important;
+}
+span.inputmsg{
+	color: red;
+} 
+span.xinlilaiyuan {
+	color: #f6f6f6;
+}
